@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+canvas { position: absolute; }
+
+#canvasContainer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-event { pointer-events: none; }
